@@ -3,8 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>ContosoUniversityCore.UnitTests</AssemblyName>
-    <PackageId>ContosoUniversityCore.UnitTests</PackageId>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>ContosoUniversityCore.IntegrationTests</AssemblyName>
+    <PackageId>ContosoUniversityCore.IntegrationTests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
   </PropertyGroup>
 
@@ -23,9 +24,10 @@
     <PackageReference Include="xunit" Version="2.3.0-beta3-build3705" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0-beta1-build3642" />
     <PackageReference Include="Shouldly" Version="2.8.3" />
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="2.0.0-preview2-25405-01" />
+    <PackageReference Include="Respawn" Version="0.3.0-preview2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0-preview2-final" />
     <PackageReference Include="FakeItEasy" Version="4.0.0-beta001" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="2.0.0-preview2-25405-01" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.0-beta3-build3705" />
   </ItemGroup>
 
